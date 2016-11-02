@@ -1,0 +1,7 @@
+Options ExecCGI
+AuthType Basic
+AuthName "Katalog tajny. Wstep po podaniu hasla."
+AuthUserFile /home/stud/teodoror/WWW/Projekt_1/.htpasswd
+<Limit GET POST>
+require valid-user
+</Limit>

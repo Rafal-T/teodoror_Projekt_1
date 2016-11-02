@@ -1,0 +1,135 @@
+/*
+Kolory:
+#ededed; - t³o
+#ffffff; - drugie t³o
+#3598db; - napisy na bia³ym i t³o niebieskie
+#e2f2ff; - podœwietlenie
+#007aad - ciemny blue
+*/
+
+table#t01 {
+    background-color: #ffffff;
+    width: 720px;
+    margin: 0 auto 0 auto;
+}
+
+tr {
+
+
+}
+
+th {
+
+
+}
+
+td {
+
+}
+
+body {
+    background-color: #ededed;
+}
+
+.kontakt {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 2px;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Sans-serif";
+    color: #3598db;
+}
+
+h2 {
+    font-family: "Sans-Serif";
+    color: #3598db;
+}
+
+table tr td img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding:20px;
+}
+table#t02 {
+    margin: auto;
+}
+table tr td.lewa {
+    background-color: #3598db;
+    width: 35%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+table tr td.prawy {
+    background-color: #ffffff;
+    padding-left: 20px;
+}
+
+table tr td table.skills {
+    width: 100%;
+}
+
+table tr td table.skills tr td.naplus {
+    background-color: #ffffff;
+}
+
+table tr td table.skills tr td.naminus {
+    background-color: #007aad;
+}
+
+table tr td table tr td.umiejetnoscinaplus {
+    background-color: #ffffff;
+}
+table tr td table tr td.naminus {
+    background-color: #007aad; 
+}
+
+p#profil {
+    text-align: justify;
+    padding-right: 25px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+li {
+    padding-bottom: 8px;
+    padding-right: 25px;
+}
+
+#wyrazam {
+    margin: 0px;
+    padding: 0px;
+    background-color: #282f39;
+    color: #888c92;
+    font-style: italic;
+    font-size: 11px;
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding:20px;
+}
+#stopka {
+    text-align: center;
+}

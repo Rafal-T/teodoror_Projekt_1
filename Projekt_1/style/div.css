@@ -1,0 +1,136 @@
+/*
+Kolory:
+#ededed; - t³o
+#ffffff; - drugie t³o
+#3598db; - napisy na bia³ym i t³o niebieskie
+#e2f2ff; - podœwietlenie
+#007aad - ciemny blue
+*/
+
+body {
+    background-color: #ededed;
+}
+
+div.lewa img {
+    display: block;
+    margin: auto;
+    width: 55%;
+    padding:20px;
+}
+
+.czysciec {
+    clear: both;
+}
+
+#t01 {
+    background-color: #ffffff;
+    width: 720px;
+    margin: 0 auto 0 auto;
+}
+
+.lewa {
+    float: left;
+    background-color: #3598db;
+    width: 33%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 800px;
+}
+
+.prawy {
+    width: 60%;
+    float: left;
+    background-color: #ffffff;
+    padding-left: 20px;
+    height: 800px;
+}
+
+.naplus {
+    float: left;
+    background-color: #ffffff;
+    height: 2px;
+}
+
+.naminus {
+    margin-top: 2px;
+    background-color: #007aad;
+    height: 2px;
+}
+
+.kontakt {
+    margin: 2px 0px 1px 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 2px;
+    width: 35%;
+    float: left; 
+}
+
+.skills {
+    margin: 7px 0px 0px 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 2px;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Sans-serif";
+    color: #3598db;
+    margin: 75px 0px 75px 0px;
+}
+
+h2 {
+    font-family: "Sans-Serif";
+    color: #3598db;
+}
+
+p#profil {
+    text-align: justify;
+    padding-right: 25px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+li {
+    padding-bottom: 8px;
+    padding-right: 25px;
+}
+
+#wyrazam {
+    margin: 0px;
+    padding: 0px;
+    background-color: #282f39;
+    color: #888c92;
+    font-style: italic;
+    font-size: 11px;
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    padding:20px;
+}
+#stopka {
+    margin-top: 0px;
+    text-align: center;
+    background-color: #ededed;
+}

@@ -1,0 +1,81 @@
+/*
+Kolory:
+
+#ededed; - t³o
+#ffffff; - drugie t³o
+#3598db; - napisy na bia³ym
+#e2f2ff; - podœwietlenie
+
+*/
+
+
+body {
+	background: #ededed;
+	margin: 0px;
+}
+
+#calosc {
+	background: #ffffff;
+	width: 60%;
+	margin: 0 auto 0 auto;
+}
+
+
+ul.topnav {
+	list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #3598db;  
+}
+
+ul.topnav li {
+	float: left;
+}
+
+#active {
+    background-color: #ffffff;
+}
+
+#active a{
+    color: #3498db;
+}
+    
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav a:hover {
+	background-color: #e2f2ff;
+        color: #3498db;
+}
+
+@media screen and (max-width: 977px){
+    ul.topnav li {float: none;}
+}
+
+#content {
+	padding:0 16px;;
+}
+
+#stopka {
+        position: fixed;
+	bottom: 0px;
+	width: 60%;
+	margin: 0px;
+        margin: 0 auto 0 auto;
+}
+
+#valid {
+        float: left;
+}
+
+#ee {
+    float: right;
+    width: 200px;
+}
